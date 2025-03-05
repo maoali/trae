@@ -1,46 +1,59 @@
-# Snake Game
+# 贪吃蛇游戏
 
-## Introduction
+一个使用HTML5 Canvas开发的经典贪吃蛇游戏。
 
-The Snake Game is a classic arcade game that has been enjoyed by millions of players around the world. In this game, you control a snake that moves around the screen, eating food to grow longer. The objective is to avoid running into the walls or the snake's own body while trying to achieve the highest possible score.
+## 功能特点
 
-## How to Play
+- 基于Canvas的流畅游戏画面
+- 响应式设计，适配不同屏幕尺寸
+- 实时分数显示
+- 游戏速度随分数提升
+- 简洁美观的用户界面
+- 游戏结束提示和重新开始功能
 
-1. Use the arrow keys to control the direction of the snake.
-2. Eat the food that appears on the screen to grow longer.
-3. Avoid running into the walls or the snake's own body.
-4. Try to achieve the highest score possible.
+## 技术栈
 
-## Features
+- HTML5 Canvas
+- JavaScript
+- CSS3
 
-- Simple and intuitive controls
-- Endless gameplay
-- Increasing difficulty as the snake grows longer
-- Classic retro graphics
+## 游戏规则
 
-## Installation
+1. 使用键盘方向键控制蛇的移动方向
+2. 吃到食物可以增加分数和蛇的长度
+3. 撞到墙壁或自己的身体会导致游戏结束
+4. 游戏速度会随着得分增加而提升
 
-To install and run the Snake Game, follow these steps:
+## 如何开始
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/snake-game.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd snake-game
-    ```
-3. Run the game:
-    ```bash
-    python snake.py
-    ```
+1. 克隆或下载项目到本地
+2. 使用浏览器打开`index.html`文件
+3. 开始游戏！
 
-## Contributing
+## 游戏控制
 
-Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or submit a pull request.
+- ↑: 向上移动
+- ↓: 向下移动
+- ←: 向左移动
+- →: 向右移动
 
-## License
+## 项目结构
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+```
+├── index.html    # 游戏主页面
+├── game.js       # 游戏逻辑代码
+└── README.md     # 项目说明文档
+```
 
-Enjoy playing the Snake Game!
+## 开发者
+
+如果你想要改进这个游戏，可以：
+
+1. Fork 这个项目
+2. 创建新的功能分支
+3. 提交你的改动
+4. 发起 Pull Request
+
+## 许可证
+
+本项目采用 MIT 许可证。
